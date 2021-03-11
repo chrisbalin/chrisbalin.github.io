@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 $primary: #a23736;
 
 body {
@@ -7,7 +11,15 @@ body {
   color: #666;
   padding: 48px;
   font-size: 28px;
-  line-height: 1.5;
+  line-height: 1.6;
+
+  @media(max-width: 600px) {
+    padding: 24px;
+  }
+}
+
+h1, h2, h3 {
+  color: #222;
 }
 
 a {
@@ -19,22 +31,125 @@ a {
   }
 }
 
-// .card {
-//   width: 50%;
-//   height: 400px;
-//   border-radius: 16px;
-//   box-shadow: 3px 3px 3px rgba(0,0,0,.2), -3px -3px 5px rgba(0,0,0,.1);
-// }
-//
-// .flex {
-//   display: flex;
-//
-//   .card {
-//     flex: 0 1 50%;
-//   }
-//
-//   h2 {
-//     flex: 0 1 50%;
-//     font-weight: 400;
-//   }
-// }
+.portfolio {
+  .link-home {
+    text-decoration: none;
+
+    span {
+      font-size: 18px;
+      margin: 0;
+      color: #222;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+  }
+}
+
+.card-layout {
+  display: flex;
+  margin-top: 100px;
+
+  .card {
+    flex: 0 1 33%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    box-shadow: 0 50px 100px -20px rgb(50 50 93 / 25%), 0 30px 60px -30px rgb(0 0 0 / 30%);
+    margin: 0 12px;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    h2 {
+      font-weight: 300;
+      font-size: 24px;
+    }
+  }
+}
+
+.work {
+  display: flex;
+  margin-top: 120px;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin-top: 2em;
+  }
+
+  h3 + p {
+    margin-top: 24px;
+  }
+}
+
+.about {
+  display: flex;
+
+  .about-tile {
+    flex: 0 1 25%;
+    margin-right: 24px;
+    border-left: 3px solid #ddd;
+    padding-left: 16px;
+
+    h2 {
+      font-size: 16px;
+    }
+
+    .about-body {
+      font-size: 16px;
+    }
+  }
+}
+
+.work {
+  display: flex;
+  font-size: 22px;
+  line-height: 1.6;
+
+  .work-copy {
+    flex: 0 1 40%;
+  }
+
+  .work-images {
+    flex: 0 1 60%;
+    padding-left: 24px;
+
+    .image {
+      margin: 0 24px;
+      overflow: hidden;
+      margin-bottom: 24px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 50px 100px -20px rgb(50 50 93 / 25%), 0 30px 60px -30px rgb(0 0 0 / 30%);
+      display: flex;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.img-placeholder {
+  height: 400px;
+  background: #eee;
+  display: block;
+  width: 100%;
+}
