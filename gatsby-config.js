@@ -5,6 +5,11 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [`gatsby-plugin-sass`],
+  siteMetadata: {
+    siteUrl: 'http://chrisbalin.com'
+  },
+  plugins: [
+    'gatsby-plugin-sass',
+    'gatsby-plugin-cname'
+  ],
 }

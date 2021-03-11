@@ -70,7 +70,7 @@ export default function Portfolio() {
       </div>
       <div class="work">
         <div class="work-copy">
-          <h2>Dashboards and E-commerce widgets for a product ratings platform</h2>
+          <h2>Dashboards and E-commerce widgets for a product reviews platform</h2>
           <p>Upon joining PowerReviews, I was responsible for designing a dashboard for the company's self-service portal. The primary aim in creating this dashboard was to present high-level analytics, actionable items, and relevant notifications.</p>
           <p>I also designed a set of styles to create consistency across the company's charts and analytics.</p>
           <p>I conducted research, created mockups and prototypes, and ultimately built out a static front-end for the dashboard which was handed off to the team's developers.</p>
