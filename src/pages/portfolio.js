@@ -5,7 +5,7 @@ export default function Portfolio() {
   return (
     <div class="portfolio">
       <a class="link-home" href="/">
-        <span>Chris Balin is a product designer who loves solving problems for real people.</span>
+        <div>Hi, I'm Chris Balin, a product designer who loves solving real problems for real people.</div>
         <h1>🤓</h1>
       </a>
       <div class="about">
