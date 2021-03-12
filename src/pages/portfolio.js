@@ -5,8 +5,7 @@ export default function Portfolio() {
   return (
     <div class="portfolio">
       <a class="link-home" href="/">
-        <div>Hi, I'm Chris Balin, a product designer who loves solving real problems for real people.</div>
-        <h1>🤓</h1>
+        <h1>Hi, I'm Chris Balin, a product designer who loves solving real problems for real people.</h1>
       </a>
       <div class="about">
         <div class="about-tile">
@@ -22,7 +21,7 @@ export default function Portfolio() {
           <div class="about-body">The best products are never a solo effort. I'm experienced in partnering with cross-functional stakeholders to build innovative, user-centric products.</div>
         </div>
         <div class="about-tile">
-          <h2 class="about-header">Above all, a champion for the user</h2>
+          <h2 class="about-header">Championing the user above all</h2>
           <div class="about-body">While balancing business strategy and technical considerations, I never lose sight of the truth that we're making things for real people.</div>
         </div>
       </div>
@@ -30,7 +29,7 @@ export default function Portfolio() {
       <div class="work">
         <div class="work-copy">
           <h2>Software testing automation, no need for code</h2>
-          <p>Applause Codeless Automation is a new offering that enables anyone to create automated software tests without writing a line of code.</p>
+          <p><span class="bold">Applause Codeless Automation</span> is a new offering that enables anyone to create automated software tests without writing a line of code.</p>
           <h3>A brief explanation</h3>
           <p>Let's say you want to test a food delivery app. You want to make sure you can order a pizza without the app breaking. Pretty simple test, right? Choose a restaurant, choose a pizza (pepperoni, obviously), checkout. Nothing breaks? You're good.</p>
           <p>So there are two ways you can test this: have a human do it manually, or write a script to have a computer do it automatically. Having the computer do it saves a bunch of time, and can be repeated over and over - but, first you need someone who can write the script.</p>
@@ -49,7 +48,7 @@ export default function Portfolio() {
       <div class="work">
         <div class="work-copy">
           <h2>A credit score for software quality</h2>
-          <p>The Applause Quality Score was designed to help dev teams better understand their software's quality and make data-driven release decisions.</p>
+          <p>The <span class="bold">Applause Quality Score</span> was designed to help dev teams better understand their software's quality and make data-driven release decisions.</p>
           <p>I worked closely with our Product and Data Science teams to build out analytics that remove ambiguity from the QA release process.</p>
         </div>
         <div class="work-images">
@@ -71,7 +70,7 @@ export default function Portfolio() {
       <div class="work">
         <div class="work-copy">
           <h2>Dashboards and E-commerce widgets for a product reviews platform</h2>
-          <p>Upon joining PowerReviews, I was responsible for designing a dashboard for the company's self-service portal. The primary aim in creating this dashboard was to present high-level analytics, actionable items, and relevant notifications.</p>
+          <p>Upon joining <span class="bold">PowerReviews</span>, I was responsible for designing a dashboard for the company's self-service portal. The primary aim in creating this dashboard was to present high-level analytics, actionable items, and relevant notifications.</p>
           <p>I also designed a set of styles to create consistency across the company's charts and analytics.</p>
           <p>I conducted research, created mockups and prototypes, and ultimately built out a static front-end for the dashboard which was handed off to the team's developers.</p>
         </div>
@@ -83,7 +82,7 @@ export default function Portfolio() {
       <div class="work">
         <div class="work-copy">
           <h2>Web-based 3D design tools for makers</h2>
-          <p>At Inventables, I helped to bring the maker movement to the browser. Easel is a web app designed to work with Inventables' CNC machines. The typical workflow for these kind of machines is complicated, involving multiple pieces of software to actually make anything. In contrast, Easel is an all-in-one solution for users to design in 2D, preview real-time in 3D, and easily send the project to their machine.</p>
+          <p>At <span class="bold">Inventables</span>, I helped to bring the maker movement to the browser. Easel is a web app designed to work with Inventables' CNC machines. The typical workflow for these kind of machines is complicated, involving multiple pieces of software to actually make anything. In contrast, Easel is an all-in-one solution for users to design in 2D, preview real-time in 3D, and easily send the project to their machine.</p>
           <p>Working closely with the development team, I led all aspects of UX and UI design on Easel. This involved usability testing and user research, wireframes, user flow mockups, along with extensive front-end development.</p>
           <p>In my time at Inventables, Easel grew from a private beta with 15 users to more than 60,000 users.</p>
         </div>

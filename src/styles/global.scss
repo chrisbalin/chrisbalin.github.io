@@ -35,14 +35,12 @@ a {
   .link-home {
     text-decoration: none;
 
-    div {
-      font-size: 18px;
-      margin: 0;
-      color: #222;
-    }
-
     h1 {
+      font-size: 22px;
+      font-weight: 300;
+      color: #222;
       margin-top: 0;
+      margin-bottom: 40px;
     }
   }
 }
@@ -108,9 +106,13 @@ a {
 
   .about-tile {
     flex: 0 1 25%;
-    margin-right: 24px;
+    margin-right: 20px;
     border-left: 3px solid #ddd;
     padding-left: 16px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
 
     @media(max-width: 1080px) {
       flex: 0 1 40%;
@@ -176,6 +178,11 @@ a {
       width: 100%;
     }
   }
+}
+
+.bold {
+  font-weight: 600;
+  color: #222;
 }
 
 .img-placeholder {
