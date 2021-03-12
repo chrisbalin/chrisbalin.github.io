@@ -4,9 +4,7 @@ import Layout from "../components/layout"
 export default function Portfolio() {
   return (
     <div class="portfolio">
-      <a class="link-home" href="/">
-        <h1>Hi, I'm Chris Balin, a product designer who loves solving real problems for real people.</h1>
-      </a>
+      <h1>Hi, I'm Chris Balin, a product designer who loves solving real problems for real people.</h1>
       <div class="about">
         <div class="about-tile">
           <h2 class="about-header">Wrangling complexity</h2>
@@ -28,7 +26,7 @@ export default function Portfolio() {
 
       <div class="work">
         <div class="work-copy">
-          <h2>Software testing automation, no need for code</h2>
+          <h2>Automated software testing, no code needed</h2>
           <p><span class="bold">Applause Codeless Automation</span> is a new offering that enables anyone to create automated software tests without writing a line of code.</p>
           <h3>A brief explanation</h3>
           <p>Let's say you want to test a food delivery app. You want to make sure you can order a pizza without the app breaking. Pretty simple test, right? Choose a restaurant, choose a pizza (pepperoni, obviously), checkout. Nothing breaks? You're good.</p>
@@ -58,7 +56,7 @@ export default function Portfolio() {
       <div class="work">
         <div class="work-copy">
           <h2>Comprehensive test case management</h2>
-          <p>A test case is the basic unit of manual software testing. Think of it like a recipe, a set of instructions. A tester follows the instructions, and makes sure that nothing in the app breaks when they do.</p>
+          <p>A test case is the basic unit of manual software testing. Think of it like a recipe: a set of instructions with an expected result. A tester follows the instructions, and makes sure that nothing in the app breaks when they do.</p>
           <p>Testing managers need to organize all these recipes somehow, and our existing in-platform tools lacked in capability and were decidedly not user-friendly.</p>
           <p>I worked with internal stakeholders to design a better solution, making it easy to organize and manage tests while maintaining flexibility for more complex use cases.</p>
         </div>

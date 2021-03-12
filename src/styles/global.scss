@@ -12,9 +12,10 @@ body {
   padding: 48px;
   font-size: 28px;
   line-height: 1.6;
+  margin: 0;
 
   @media(max-width: 600px) {
-    padding: 24px;
+    padding: 48px 24px;
   }
 }
 
@@ -32,16 +33,12 @@ a {
 }
 
 .portfolio {
-  .link-home {
-    text-decoration: none;
-
-    h1 {
-      font-size: 22px;
-      font-weight: 300;
-      color: #222;
-      margin-top: 0;
-      margin-bottom: 40px;
-    }
+  h1 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #222;
+    margin: 0;
+    margin-top: 32px;
   }
 }
 
@@ -75,7 +72,15 @@ a {
 
 .work {
   display: flex;
-  margin-top: 120px;
+  margin-bottom: 100px;
+
+  @media(max-width: 900px) {
+    margin-bottom: 80px;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 
   h2 {
     margin-top: 0;
@@ -99,6 +104,7 @@ a {
 .about {
   display: flex;
   flex-wrap: nowrap;
+  margin: 80px 0;
 
   @media(max-width: 1080px) {
     flex-wrap: wrap;
