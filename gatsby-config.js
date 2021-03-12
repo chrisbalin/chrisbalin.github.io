@@ -10,6 +10,14 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-sass',
-    'gatsby-plugin-cname'
+    'gatsby-plugin-cname',
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "UA-36577662-1", // Google Analytics / GA
+        ],
+      },
+    },
   ],
 }
