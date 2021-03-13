@@ -12,7 +12,7 @@ export default function Portfolio() {
         </div>
         <div class="about-tile">
           <h2 class="about-header">Pushing to pixel-perfect</h2>
-          <div class="about-body">I'm not sure I'd trust a designer who thinks their first ideas are their best ideas. Ego-less iteration is the key to getting things right. </div>
+          <div class="about-body">I'd be skeptical of any designer who thinks their first ideas are their best ideas. Ego-less iteration is the key to getting things right.</div>
         </div>
         <div class="about-tile">
           <h2 class="about-header">Collaboration is everything</h2>
