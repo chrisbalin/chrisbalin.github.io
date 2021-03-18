@@ -48,7 +48,8 @@ export default function Portfolio() {
         <div class="work-copy">
           <h2>A credit score for software quality</h2>
           <p>The <span class="bold">Applause Quality Score</span> was designed to help dev teams better understand their software's quality and make data-driven release decisions.</p>
-          <p>I worked closely with our Product and Data Science teams to build out analytics that remove ambiguity from the QA release process.</p>
+          <p>Our software testing platform had an abundance of low-level data, but minimal tools to discern trends. Instead, customers were relying on hand-crafted reports that our testing teams manually create. Our customers (particularly QA managers) wanted an answer to the question “should I release this software build or not?”.</p>
+          <p>I worked closely with our Product and Data Science teams to build out analytics that remove ambiguity from the QA release process. Our goal was to increase in-platform engagement rather than relying on single-use reports.</p>
         </div>
         <div class="work-images">
           <div class="image"><img src={'/aqs2.png'} /></div>
@@ -78,7 +79,7 @@ export default function Portfolio() {
           <div class="image"><img src={'/pr2.png'} /></div>
         </div>
       </div>
-      <div class="work">
+      <div class="work no-margin">
         <div class="work-copy">
           <h2>Web-based 3D design tools for makers</h2>
           <p>At <span class="bold">Inventables</span>, I helped to bring the maker movement to the browser. Easel is a web app designed to work with Inventables' CNC machines. The typical workflow for these kind of machines is complicated, involving multiple pieces of software to actually make anything. In contrast, Easel is an all-in-one solution for users to design in 2D, preview real-time in 3D, and easily send the project to their machine.</p>
@@ -90,6 +91,7 @@ export default function Portfolio() {
           <img src={'/inventables1.png'} />
         </div>
       </div>
+      <div class="footer">Built with <a href="https://www.gatsbyjs.com/">Gatsby</a>. I like writing code!</div>
     </div>
   )
 }

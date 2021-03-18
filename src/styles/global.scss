@@ -207,14 +207,28 @@ a {
   background: $primary;
   color: #fff;
   text-decoration: none;
-  padding: 1rem 2rem;
+  font-size: 18px;
+  padding: 18px 24px;
   border-radius: 4px;
+  margin-top: 16px;
 
   &:hover {
     color: #fff;
     background: darken($primary, 5%);
   }
 
+}
+
+.no-margin {
+  margin: 0;
+}
+.footer {
+  font-size: 12px;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
 }
 
 
@@ -227,6 +241,7 @@ a {
 
   h1 {
     font-size: 64px;
+    margin-bottom: 28px;
   }
 
   .description {

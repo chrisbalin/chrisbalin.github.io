@@ -8,13 +8,6 @@ export default function CaseStudy() {
         <h1>Codeless Automation</h1>
         <div class="description">
           <p class="description-text"><span class="bold">Applause Codeless Automation</span> is a new offering that enables anyone to create automated software tests without writing a line of code.</p>
-          <ul class="description-roles">
-            <li>Chris Balin - Design Lead</li>
-            <li>Cathy - Product Manager</li>
-            <li>Jon - Engineering Lead</li>
-            <li>Rob - CTO</li>
-            <li>Kristin - VP of Product</li>
-          </ul>
         </div>
       </section>
       <section class="section1">
@@ -36,7 +29,7 @@ export default function CaseStudy() {
         <span class="numeral">03</span>
         <h1>Creating a Test</h1>
         <p>We agreed early on that <span class="bold">Creating a Test</span> was the core of the product, and it was particularly important to make this flow as clear and simple as possible.</p>
-        <p>Creating a test consists of two distinct phases. Let's say you want to test that you can log in to an app. First, using the in-browser device simulator, you would record the action of logging in.</p>
+        <p>Creating a test consists of two distinct phases. Let's say you want to test the log in flow of an app. First, using the in-browser device simulator, you record the action of logging in.</p>
         <p>Next, you need to tell the computer how to recognize that you've successfully logged in. This is done using something called assertions, which are bits of logic tied to elements on the screen.</p>
         <p>In this case, you would add an assertion to verify that the text 'Home' appears at the end of the test. If the computer re-runs the test and doesn't find the element containing 'Home', the test will fail.</p>
         <p>We went through a number of iterations of this flow, using regular feedback from the internal user group to guide our product and design decisions. Improvements like the progress indicator at the top, and moving the action buttons to the left of the recording screen, were inspired by and validated in these sessions.</p>
@@ -70,7 +63,7 @@ export default function CaseStudy() {
         <span class="numeral">05</span>
         <h1>Success Metrics</h1>
         <p>There are several metrics we'll use to measure success from a UX and product perspective. The first, and perhaps most important, is ensuring that any user can successfully create and run their first test. Much like Facebook's famous <a href="https://customer.io/blog/finding-aha-moment/">"7 friends in 10 days"</a>, I believe that if we do this successfully, our users will come back again and again to use our product.</p>
-        <p>More generally, as the product rolls out in beta and public launch, we'll run targeted usability sessions to validate decisions and find areas for improvement.
+        <p>We'll also track overall product usage and engagement. More generally, as the product rolls out in beta and public launch, we'll run targeted usability sessions to validate decisions and find areas for improvement.
         </p>
       </section>
     </div>
