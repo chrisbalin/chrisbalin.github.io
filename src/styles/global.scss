@@ -9,10 +9,13 @@ body {
   font-weight: 300;
   background: #fafafa;
   color: #666;
-  padding: 48px;
   font-size: 28px;
   line-height: 1.6;
   margin: 0;
+}
+
+.home, .portfolio {
+  padding: 48px;
 
   @media(max-width: 600px) {
     padding: 48px 24px;
@@ -197,4 +200,130 @@ a {
   background: #eee;
   display: block;
   width: 100%;
+}
+
+.button {
+  display: inline-block;
+  background: $primary;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+
+  &:hover {
+    color: #fff;
+    background: darken($primary, 5%);
+  }
+
+}
+
+
+// Case study styles
+
+.casestudy {
+  p {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 64px;
+  }
+
+  .description {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+    .description-text {
+      width: 400px;
+    }
+
+    .description-roles {
+      list-style: none;
+    }
+  }
+
+  section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 48px 120px;
+
+    .image {
+      overflow: hidden;
+      margin-bottom: 24px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 50px 100px -20px rgb(50 50 93 / 25%), 0 30px 60px -30px rgb(0 0 0 / 30%);
+      display: flex;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .numeral {
+      font-size: 18px;
+    }
+
+    .numeral+h1 {
+      margin-top: 0;
+    }
+
+    p {
+      width: 400px;
+    }
+
+    .section-header {
+      .section-title {
+
+      }
+
+      .section-text {
+
+      }
+    }
+
+    @media(max-width: 600px) {
+      padding: 48px 24px;
+    }
+
+    &.section1 {
+      background: #fee5df;
+    }
+
+    &.section2 {
+      background: #01143a;
+      color: #fff;
+
+      h1, h2, .bold {
+        color: #fff;
+      }
+    }
+
+    &.section3 {
+      background: #fedfe9;
+      color: #222;
+    }
+
+    &.section4 {
+      background: #eee;
+    }
+
+    &.section5 {
+      background: #fff;
+    }
+
+    h3 {
+      font-size: 22px;
+      font-weight: normal;
+    }
+
+    .mockup {
+      width: 100%;
+      height: 700px;
+      background: #fff;
+      border-radius: 8px;
+    }
+  }
 }

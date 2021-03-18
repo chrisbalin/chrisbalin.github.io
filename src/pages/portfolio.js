@@ -36,6 +36,7 @@ export default function Portfolio() {
           <p>As a stand-alone offering, Codeless Automation was an opportunity to design an entire product from the ground up. Working closely with stakeholders in Product and Engineering, we defined a core set of requirements rooted in business needs and user goals.</p>
           <p>Moving from wireframes to mockups and prototypes, I met consistently with a core internal user group - people with QA backgrounds in both manual and automated testing. Their expertise informed design decisions about how best to simplify the process of recording, organizing, and executing tests.</p>
           <p>In the final weeks before the public launch of Codeless Automation, I dug into the front-end, committing production code to ensure that the final UI is pixel-perfect, responsive, and accessible to all users.</p>
+          <a href={'/casestudy1'} class="button">Read Detailed Case Study</a>
         </div>
         <div class="work-images">
           <div class="image"><img src={'/aca2.png'} /></div>
