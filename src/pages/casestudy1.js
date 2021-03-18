@@ -14,9 +14,9 @@ export default function CaseStudy() {
       <section class="section1">
         <span class="numeral">01</span>
         <h1>The Problem</h1>
-        <p>Automated testing saves time and money, but it requires people to be able to write test scripts. This means software engineers must write tests as they develop features, or QA teams need dedicated resources with the skills to write tests.</p>
+        <p>Automated testing saves time and money, but it requires people to write test scripts. This means software engineers must write tests as they develop features, or QA teams need dedicated resources with the skills to write tests.</p>
         <p>In talking with customers, it became clear that QA managers prefer automated testing when possible (vs having people test manually), but they rarely have the resources or time to create tests at the same pace that engineers are releasing features.</p>
-        <p>Codeless Automation was conceived to solve this problem, as an in-browser tool to make it so anybody - regardless of coding ability - could create automated tests of mobile and web software</p>
+        <p>Codeless Automation was conceived to solve this problem, as an in-browser tool to make it so anybody - regardless of coding ability - could create automated tests of mobile and web software.</p>
       </section>
       <section class="section2">
         <span class="numeral">02</span>
@@ -24,16 +24,16 @@ export default function CaseStudy() {
         <p>Codeless Automation was initially built as a simple proof of concept by Jon, our engineering lead.</p>
         <p>When the business decided to build it out as a fully-fledged product, I was brought on board and began to conduct research and sketch out wireframes.</p>
         <p>Cathy (product manager) and I convened a group of internal users. With a mix of manual and automated QA experience, they reflected the target user personas we were building for.</p>
-        <p>We met consistently with this internal user group to ask questions, test wireframes, and validate product decisions. Their feedback was invaluable as I iterated on design ideas.</p>
+        <p>We met consistently with this internal user group to ask questions, test wireframes, and validate product decisions. Their feedback was invaluable as we iterated on design ideas.</p>
       </section>
       <section class="section3">
         <span class="numeral">03</span>
         <h1>Creating a Test</h1>
         <p>We agreed early on that <span class="bold">Creating a Test</span> was the core of the product, and it was particularly important to make this flow as clear and simple as possible.</p>
-        <p>Creating a test consists of two distinct phases. Let's say you want to test the log in flow of an app. First, using the in-browser device simulator, you record the action of logging in.</p>
+        <p>Creating a test consists of two distinct phases. Let's say you want to test the login flow of an app. First, using the in-browser device simulator, you login the same way you would on a real mobile device.</p>
         <p>Next, you need to tell the computer how to recognize that you've successfully logged in. This is done using something called assertions, which are bits of logic tied to elements on the screen.</p>
         <p>In this case, you would add an assertion to verify that the text 'Home' appears at the end of the test. If the computer re-runs the test and doesn't find the element containing 'Home', the test will fail.</p>
-        <p>We went through a number of iterations of this flow, using regular feedback from the internal user group to guide our product and design decisions. Improvements like the progress indicator at the top, and moving the action buttons to the left of the recording screen, were inspired by and validated in these sessions.</p>
+        <p>We went through a number of iterations of this flow, using regular feedback from the internal user group to guide our product and design decisions. Improvements that came out of these sessions included adding the progress indicator at the top, moving the action buttons to the left of the recording screen, and dynamically keeping the (+) assertion button next to the current step rather than above the list of steps.</p>
         <h2>Early Wireframes</h2>
         <div class="image"><img src={'/wire1.png'} /></div>
         <div class="image"><img src={'/wire2.png'} /></div>
@@ -43,6 +43,7 @@ export default function CaseStudy() {
         <h3>Adding assertions</h3>
         <div class="image"><img src={'/assertion1.png'} /></div>
         <div class="image"><img src={'/assertion2.png'} /></div>
+        <div class="image"><img src={'/assertion2a.png'} /></div>
         <div class="image"><img src={'/assertion3.png'} /></div>
         <div class="image"><img src={'/assertion4.png'} /></div>
       </section>
