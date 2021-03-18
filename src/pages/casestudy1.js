@@ -8,6 +8,7 @@ export default function CaseStudy() {
         <h1>Codeless Automation</h1>
         <div class="description">
           <p class="description-text"><span class="bold">Applause Codeless Automation</span> is a new offering that enables anyone to create automated software tests without writing a line of code.</p>
+          <p>👇Scroll down to learn more.</p>
         </div>
       </section>
       <section class="section1">

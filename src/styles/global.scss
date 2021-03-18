@@ -245,16 +245,10 @@ a {
   }
 
   .description {
-    display: flex;
-    justify-content: space-between;
     font-size: 18px;
 
     .description-text {
       width: 400px;
-    }
-
-    .description-roles {
-      list-style: none;
     }
   }
 
