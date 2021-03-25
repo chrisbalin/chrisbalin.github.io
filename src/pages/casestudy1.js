@@ -10,6 +10,7 @@ export default function CaseStudy() {
           <p class="description-text"><span class="bold">Applause Codeless Automation</span> is a new offering that enables anyone to create automated software tests without writing a line of code.</p>
           <p>👇Scroll down to learn more.</p>
         </div>
+        <img class="hero-image" src={'/recordtest.png'} />
       </section>
       <section class="section1">
         <span class="numeral">01</span>
@@ -23,7 +24,7 @@ export default function CaseStudy() {
         <h1>Beginnings</h1>
         <p>Codeless Automation was initially built as a simple proof of concept by Jon, our engineering lead.</p>
         <p>When the business decided to build it out as a fully-fledged product, I was brought on board and began to conduct research and sketch out wireframes.</p>
-        <p>Cathy (product manager) and I convened a group of internal users. With a mix of manual and automated QA experience, they reflected the target user personas we were building for.</p>
+        <p>Cathy (our product lead) and I convened a group of internal users. With a mix of manual and automated QA experience, they reflected the target user personas we were building for.</p>
         <p>We met consistently with this internal user group to ask questions, test wireframes, and validate product decisions. Their feedback was invaluable as we iterated on design ideas.</p>
       </section>
       <section class="section3">
