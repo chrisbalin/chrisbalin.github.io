@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b master https://$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@github.com/chrisbalin/chrisbalin.github.io.git"
   },
   "dependencies": {
     "fontsource-karla": "^4.0.0",
